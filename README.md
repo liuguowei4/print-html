@@ -9,4 +9,13 @@
 使用代码前，需要安装一个谷歌浏览器的驱动，方便python操作，具体链接：https://googlechromelabs.github.io/chrome-for-testing/
 
 ## 使用方法
+### 样式调整
+如果有样式方面的调整，比如要在打印时隐藏某些东西，或者控制打印标题，可在文件**index.py**中**driver.execute_script**部分输入，比如我要把标题变成"测试打印"，并且隐藏一个id为a的表格
+<code>
+index.py
+……
+    driver.execute_script(f'document.title="测试打印";document.getElementById("a").style.display="none";')
+……
+</code>
+### 运行代码
 <code>python index.py</code>
