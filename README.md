@@ -3,7 +3,7 @@
 </blockquote>
 
 ## url获取
-将页面获取的url，复制到文件**index.py**的中**url**变量即可。如果你获取页面链接方式困难，比如需求是那种要第几页到第几页所有打开页面链接的这种需求的，可以看看我的博客的[示例](https://blog.csdn.net/liuguowei14/article/details/141320709?spm=1001.2014.3001.5502)。
+如果你获取页面链接方式困难，比如需求是那种要第几页到第几页所有打开页面链接的这种需求的，可以看看我的博客的[示例](https://blog.csdn.net/liuguowei14/article/details/141320709?spm=1001.2014.3001.5502)。
 
 ## 驱动安装
 使用代码前，需要安装一个谷歌浏览器的驱动，方便python操作，具体链接：https://googlechromelabs.github.io/chrome-for-testing/
